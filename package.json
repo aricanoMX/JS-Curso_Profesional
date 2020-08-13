@@ -4,7 +4,7 @@
   "description": "This is an amazing course about JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "live-server"
   },
   "keywords": [
     "JavaScriptm",
@@ -13,5 +13,16 @@
     "Generators"
   ],
   "author": "aricanomx",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aricanoMX/PM_Curso_Profesional_JS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aricanoMX/PM_Curso_Profesional_JS/issues"
+  },
+  "homepage": "https://github.com/aricanoMX/PM_Curso_Profesional_JS#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
 }
